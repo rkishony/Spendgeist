@@ -4,10 +4,10 @@ compatibility_date = "2026-09-29"
 
 [[kv_namespaces]]
 binding = "INSTALLS"
-id = "REPLACE_AFTER_KV_CREATE"
+id = "1073e0428855442ebecf93a32d3fde15"
 
 [[routes]]
-pattern = "agentcostmonitor.com/extension/pricing.json"
+pattern = "agentcostmonitor.com/extension/pricing.json*"
 zone_name = "agentcostmonitor.com"
 
 [[routes]]
