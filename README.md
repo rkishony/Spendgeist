@@ -14,6 +14,17 @@
 
 **Usage stays on your machine.** Token counts and request metadata are only cached locally. Pricing fetches only sends a random install id (see Privacy).
 
+## Screenshots
+
+| | |
+|---|---|
+| Per-turn cost in chat | Model picker rates |
+| ![Chat costs](docs/screenshots/chat-example.png) | ![Model picker](docs/screenshots/model-picker-example.png) |
+| Usage dashboard | Focal chat (sidebar) |
+| ![Usage dashboard](docs/screenshots/prompt-with-pricing-example.png) | ![Focal chat](docs/screenshots/focal-chat-example.png) |
+| Pricing table | |
+| ![Pricing](docs/screenshots/pricing-example.png) | |
+
 ## Pricing data
 
 This repository holds the Cursor's pricing table the extension downloads:

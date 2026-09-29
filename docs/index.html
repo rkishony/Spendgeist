@@ -22,6 +22,11 @@ table{border-collapse:collapse;width:100%;font-size:14px}
 th,td{text-align:left;padding:8px 10px 8px 0;border-bottom:1px solid var(--line);vertical-align:top}
 th{font-size:.8em;letter-spacing:.04em;text-transform:uppercase;opacity:.55;font-weight:600}
 ol{padding-left:1.2em}
+.shots{display:grid;gap:20px;margin:20px 0 8px}
+.shots figure{margin:0}
+.shots img{width:100%;height:auto;border:1px solid var(--line);border-radius:12px;display:block}
+.shots figcaption{font-size:.9rem;opacity:.75;margin-top:8px}
+@media(min-width:640px){.shots.two{grid-template-columns:1fr 1fr}}
 </style>
 </head>
 <body>
@@ -37,6 +42,15 @@ ol{padding-left:1.2em}
 <li><strong>Graphical spend analytics</strong> — trends, billing periods, and breakdowns by model, project, and provider</li>
 </ul>
 <p><strong>Usage stays on your machine.</strong> Token counts and request metadata are cached locally. Pricing fetches send a random install id, described under Privacy.</p>
+
+<h2>Screenshots</h2>
+<div class="shots two">
+<figure><img src="screenshots/chat-example.png" alt="Per-turn cost shown in chat"><figcaption>Per-turn cost in chat</figcaption></figure>
+<figure><img src="screenshots/model-picker-example.png" alt="Model rates in the picker"><figcaption>Model picker rates</figcaption></figure>
+<figure><img src="screenshots/prompt-with-pricing-example.png" alt="Usage dashboard with plan chart"><figcaption>Usage dashboard</figcaption></figure>
+<figure><img src="screenshots/focal-chat-example.png" alt="Focal chat in the sidebar"><figcaption>Focal chat (sidebar)</figcaption></figure>
+<figure><img src="screenshots/pricing-example.png" alt="Pricing table in an editor tab"><figcaption>Pricing table</figcaption></figure>
+</div>
 
 <h2>Pricing data</h2>
 <p>This site and the <a href="https://github.com/rkishony/Spendgeist">GitHub repo</a> hold the Cursor pricing table the extension downloads.</p>
