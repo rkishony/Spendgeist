@@ -1,6 +1,8 @@
-# AI Cost Monitor
+# Spendgeist
 
-**See, track, and control Cursor AI spend.**
+<img src="docs/logo.png" alt="Spendgeist" width="96">
+
+**See what's haunting your AI spending.**
 
 [Install on Cursor (Open VSX)](https://open-vsx.org/extension/rkishony/ai-cost) · [Pricing table](https://rkishony.github.io/ai-cost-monitor/) · [Issues](https://github.com/roykishony/ai-cost-monitor/issues)
 
@@ -27,7 +29,7 @@ Not official rates. Rates are scrapped from [Cursor’s public model docs](https
 ## Install
 
 1. Open Cursor → Extensions
-2. Search **AI Cost Monitor** or install from [Open VSX](https://open-vsx.org/extension/rkishony/ai-cost)
+2. Search **Spendgeist** or install from [Open VSX](https://open-vsx.org/extension/rkishony/ai-cost)
 3. Click the **$** in the status bar to open details
 
 ## Privacy
