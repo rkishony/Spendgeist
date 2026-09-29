@@ -12,7 +12,7 @@
 - **Model costs in context** — per-turn spend in chat and rates in the picker before you choose
 - **Graphical spend analytics** — trends, billing periods, and breakdowns by model, project, and provider
 
-**Your data stays local.** Cached locally. No data is sent outside. No author servers. No telemetry.
+**Usage stays on your machine.** Token counts and request metadata are only cached locally. Pricing fetches only sends a random install id (see Privacy).
 
 ## Pricing data
 
@@ -20,7 +20,7 @@ This repository holds the Cursor's pricing table the extension downloads:
 
 | File | Purpose |
 |------|---------|
-| [`extension/pricing.json`](extension/pricing.json) | Machine-readable rates (default `cursorCost.pricingUrl`) |
+| [`extension/pricing.json`](extension/pricing.json) | Machine-readable rates, also published at `/extension/pricing.json` (default `cursorCost.pricingUrl`) |
 | [`pricing.csv`](pricing.csv) | Human-reviewed source |
 | [`docs/pricing.html`](https://agentcostmonitor.com/pricing) | Browseable rate table |
 
@@ -34,10 +34,10 @@ Not official rates. Rates are scrapped from [Cursor’s public model docs](https
 
 ## Privacy
 
-- Only pulls usage from Cursor and public pricing from GitHub ([Pricing table](https://agentcostmonitor.com/pricing)). 
+- Pulls usage from Cursor, and the pricing table from [agentcostmonitor.com/extension/pricing.json](https://agentcostmonitor.com/extension/pricing.json).
+- Each pricing fetch includes a random install id created on your machine. It is not tied to an account. The site uses this random-id to count number of active users.
 - Request metadata and token counts stay in local extension storage.
 - Cursor usage API uses your existing Cursor sign-in to read dashboard data — cached locally only.
-- **No analytics or telemetry** is sent from the extension.
 
 ## License
 

@@ -1,0 +1,15 @@
+name = "spendgeist-installs"
+main = "worker/index.js"
+compatibility_date = "2026-09-29"
+
+[[kv_namespaces]]
+binding = "INSTALLS"
+id = "REPLACE_AFTER_KV_CREATE"
+
+[[routes]]
+pattern = "agentcostmonitor.com/extension/pricing.json"
+zone_name = "agentcostmonitor.com"
+
+[[routes]]
+pattern = "agentcostmonitor.com/extension/installs"
+zone_name = "agentcostmonitor.com"
