@@ -20,8 +20,8 @@
 |---|---|
 | Per-turn cost in chat | Model picker rates |
 | ![Chat costs](docs/screenshots/chat-example.png) | ![Model picker](docs/screenshots/model-picker-example.png) |
-| Usage dashboard | Focal chat (sidebar) |
-| ![Usage dashboard](docs/screenshots/prompt-with-pricing-example.png) | ![Focal chat](docs/screenshots/focal-chat-example.png) |
+| Usage graph | Focal chat (sidebar) |
+| ![Usage graph](docs/screenshots/usage-graph-example.png) | ![Focal chat](docs/screenshots/focal-chat-example.png) |
 | Pricing table | |
 | ![Pricing](docs/screenshots/pricing-example.png) | |
 
