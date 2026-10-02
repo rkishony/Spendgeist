@@ -40,6 +40,7 @@ ol{padding-left:1.2em}
 <li><strong>Real-time usage cost</strong> while you code — live spend from your Cursor account, always visible</li>
 <li><strong>Model costs in context</strong> — per-turn spend in chat and rates in the picker before you choose</li>
 <li><strong>Graphical spend analytics</strong> — trends, billing periods, and breakdowns by model, project, and provider</li>
+<li><strong>Ask about your usage</strong> — ask the agent how much you spent, which models you used, or what a model costs. It answers from your local usage and opens the matching graph</li>
 </ul>
 <p><strong>Usage stays on your machine.</strong> Token counts and request metadata are cached locally. Pricing fetches send a random install id, described under Privacy.</p>
 
@@ -51,6 +52,10 @@ ol{padding-left:1.2em}
 <figure><img src="screenshots/focal-chat-example.png" alt="Focal chat in the sidebar"><figcaption>Focal chat (sidebar)</figcaption></figure>
 <figure><img src="screenshots/pricing-example.png" alt="Pricing table in an editor tab"><figcaption>Pricing table</figcaption></figure>
 </div>
+
+<h2>Ask about usage</h2>
+<p>Ask in chat, for example “how much did I spend this week?” or “which model is good value?”. Spendgeist gives the agent your local totals and rates, then opens the usage graph or the pricing table.</p>
+<p>This is installed with the extension. It answers only while Spendgeist is running in that Cursor window.</p>
 
 <h2>Pricing data</h2>
 <p>This site and the <a href="https://github.com/rkishony/Spendgeist">GitHub repo</a> hold the Cursor pricing table the extension downloads.</p>
@@ -76,6 +81,7 @@ ol{padding-left:1.2em}
 <li>Pulls usage from Cursor, and the pricing table from <a href="/extension/pricing.json">/extension/pricing.json</a> on this site.</li>
 <li>Each pricing fetch includes a random install id created on your machine. It is not tied to an account. This site stores that id with the first fetch time, the latest fetch time, and how many times pricing was fetched.</li>
 <li>Request metadata and token counts stay in local extension storage.</li>
+<li>When you ask the agent about usage, that question’s totals and rates go to the model you are already chatting with. Prompts and the usage records stay on your machine.</li>
 <li>Cursor usage API uses your existing Cursor sign-in to read dashboard data — cached locally only.</li>
 </ul>
 
