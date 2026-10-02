@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "_source": "pricing.csv",
-  "_generatedAt": "2026-10-02T19:38:59.816Z",
+  "_generatedAt": "2026-10-02T19:41:06.977Z",
   "_review": "Compiled from the reviewed pricing.csv.",
   "models": {
     "claude-4-sonnet": {
