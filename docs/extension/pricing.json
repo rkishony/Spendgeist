@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "_source": "pricing.csv",
-  "_generatedAt": "2026-10-02T20:18:37.769Z",
+  "_generatedAt": "2026-10-24T07:11:20.684Z",
   "_review": "Compiled from the reviewed pricing.csv.",
   "models": {
     "claude-4-sonnet": {
@@ -245,6 +245,28 @@
       "cacheRead": 0.25,
       "cacheWrite": 12.5,
       "output": 50
+    },
+    "claude-haiku-5.5": {
+      "displayName": "Claude Haiku 5.5",
+      "baseModel": "claude-haiku-5.5",
+      "isBase": true,
+      "mode": "standard",
+      "context": "default",
+      "contextMinTokens": null,
+      "contextLimit": null,
+      "detailRateSource": "none",
+      "detailInput": null,
+      "detailCacheRead": null,
+      "detailCacheWrite": null,
+      "detailOutput": null,
+      "inputMultiplier": null,
+      "cacheReadMultiplier": null,
+      "cacheWriteMultiplier": null,
+      "outputMultiplier": null,
+      "input": 0.1,
+      "cacheRead": 0.01,
+      "cacheWrite": 0.125,
+      "output": 0.5
     },
     "claude-opus-4-8-fast": {
       "displayName": "Claude Opus 4.8 Fast",
@@ -594,7 +616,7 @@
       "cacheWriteMultiplier": null,
       "outputMultiplier": null,
       "input": 2,
-      "cacheRead": 0.2,
+      "cacheRead": 0.1,
       "cacheWrite": 2.5,
       "output": 10
     },
@@ -616,7 +638,7 @@
       "cacheWriteMultiplier": null,
       "outputMultiplier": null,
       "input": 2,
-      "cacheRead": 0.2,
+      "cacheRead": 0.1,
       "cacheWrite": 2.5,
       "output": 10
     },
@@ -796,6 +818,28 @@
       "cacheWrite": 0,
       "output": 9
     },
+    "gemini-3.5-flash-lite": {
+      "displayName": "Gemini 3.5 Flash Lite",
+      "baseModel": "gemini-3.5-flash-lite",
+      "isBase": true,
+      "mode": "standard",
+      "context": "default",
+      "contextMinTokens": null,
+      "contextLimit": null,
+      "detailRateSource": "none",
+      "detailInput": null,
+      "detailCacheRead": null,
+      "detailCacheWrite": null,
+      "detailOutput": null,
+      "inputMultiplier": null,
+      "cacheReadMultiplier": null,
+      "cacheWriteMultiplier": null,
+      "outputMultiplier": null,
+      "input": 0.3,
+      "cacheRead": 0.03,
+      "cacheWrite": 0,
+      "output": 2.5
+    },
     "gemini-3.6-flash": {
       "displayName": "Gemini 3.6 Flash",
       "baseModel": "gemini-3.6-flash",
@@ -838,7 +882,7 @@
       "input": 0.75,
       "cacheRead": 0.075,
       "cacheWrite": 0,
-      "output": 3.5
+      "output": 3.75
     },
     "gemini-3.8-flash": {
       "displayName": "Gemini 3.8 Flash",
@@ -860,7 +904,29 @@
       "input": 0.75,
       "cacheRead": 0.075,
       "cacheWrite": 0,
-      "output": 3.5
+      "output": 3.75
+    },
+    "gemini-4-argon": {
+      "displayName": "Gemini 4 Argon",
+      "baseModel": "gemini-4-argon",
+      "isBase": true,
+      "mode": "standard",
+      "context": "default",
+      "contextMinTokens": null,
+      "contextLimit": null,
+      "detailRateSource": "none",
+      "detailInput": null,
+      "detailCacheRead": null,
+      "detailCacheWrite": null,
+      "detailOutput": null,
+      "inputMultiplier": null,
+      "cacheReadMultiplier": null,
+      "cacheWriteMultiplier": null,
+      "outputMultiplier": null,
+      "input": 2,
+      "cacheRead": 0.1,
+      "cacheWrite": 0,
+      "output": 10
     },
     "glm-5.2": {
       "displayName": "GLM 5.2",
@@ -1895,6 +1961,50 @@
       "cacheRead": 0.15,
       "cacheWrite": 0,
       "output": 4.25
+    },
+    "muse-wonder": {
+      "displayName": "Muse Wonder",
+      "baseModel": "muse-wonder",
+      "isBase": true,
+      "mode": "standard",
+      "context": "default",
+      "contextMinTokens": null,
+      "contextLimit": 1000000,
+      "detailRateSource": "none",
+      "detailInput": null,
+      "detailCacheRead": null,
+      "detailCacheWrite": null,
+      "detailOutput": null,
+      "inputMultiplier": null,
+      "cacheReadMultiplier": null,
+      "cacheWriteMultiplier": null,
+      "outputMultiplier": null,
+      "input": 4,
+      "cacheRead": 0.2,
+      "cacheWrite": 0,
+      "output": 20
+    },
+    "muse-wonder-context-1m": {
+      "displayName": "Muse Wonder · 1M context",
+      "baseModel": "muse-wonder",
+      "isBase": false,
+      "mode": "standard",
+      "context": "1M",
+      "contextMinTokens": null,
+      "contextLimit": 1000000,
+      "detailRateSource": "same-rates",
+      "detailInput": null,
+      "detailCacheRead": null,
+      "detailCacheWrite": null,
+      "detailOutput": null,
+      "inputMultiplier": null,
+      "cacheReadMultiplier": null,
+      "cacheWriteMultiplier": null,
+      "outputMultiplier": null,
+      "input": 4,
+      "cacheRead": 0.2,
+      "cacheWrite": 0,
+      "output": 20
     }
   }
 }
